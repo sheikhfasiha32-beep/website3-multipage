@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Fasiha Nadeem</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body class="contact-page">
+
+    <div class="contact-glow contact-glow-one"></div>
+    <div class="contact-glow contact-glow-two"></div>
+
+    <header class="contact-header">
+        <a href="index.html" class="contact-logo">FN<span>.</span></a>
+
+        <nav class="contact-nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="contact-hero">
+            <p class="contact-eyebrow"><span></span> LET'S CONNECT <span></span></p>
+
+            <h1>Every great idea<br>starts with a <em>hello.</em></h1>
+
+            <p>
+                Have a project idea, a learning opportunity, or just want
+                to connect? I'd love to hear from you.
+            </p>
+
+            <a href="#contact-form" class="contact-scroll">
+                Send me a message <span>↓</span>
+            </a>
+
+            <div class="contact-decoration">✳</div>
+        </section>
+
+        <section class="contact-main">
+
+            <div class="contact-info">
+                <p class="contact-small-label">GET IN TOUCH</p>
+                <h2>Let's create<br>something <em>meaningful.</em></h2>
+
+                <p class="contact-info-description">
+                    I'm always interested in learning, collaborating,
+                    and exploring new ideas in technology and AI.
+                </p>
+
+                <div class="contact-details">
+
+                    <a href="mailto:YOUR_EMAIL@example.com" class="contact-detail-card">
+                        <span class="contact-detail-icon">✉</span>
+                        <span class="contact-detail-text">
+                            <small>EMAIL ME</small>
+                            <strong>YOUR_EMAIL@example.com</strong>
+                        </span>
+                        <span class="contact-arrow">↗</span>
+                    </a>
+
+                    <div class="contact-detail-card">
+                        <span class="contact-detail-icon">✧</span>
+                        <span class="contact-detail-text">
+                            <small>MY INTERESTS</small>
+                            <strong>Technology · AI · Web Development</strong>
+                        </span>
+                    </div>
+
+                    <div class="contact-detail-card">
+                        <span class="contact-detail-icon">⌘</span>
+                        <span class="contact-detail-text">
+                            <small>MY APPROACH</small>
+                            <strong>Learn, create, and grow</strong>
+                        </span>
+                    </div>
+
+                </div>
+
+                <div class="contact-socials">
+                    <p>FIND ME ONLINE</p>
+                    <div>
+                        <a href="YOUR_LINKEDIN_URL" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                        <a href="YOUR_GITHUB_URL" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-panel" id="contact-form">
+                <div class="contact-form-heading">
+                    <span class="contact-form-number">01 — YOUR MESSAGE</span>
+                    <h3>Write me a little note.</h3>
+                    <p>Fill in the details below to get started.</p>
+                </div>
+
+                <form class="contact-form" id="portfolio-contact-form">
+
+                    <div class="contact-input-row">
+                        <div class="contact-field">
+                            <label for="contact-name">Your name</label>
+                            <input
+                                type="text"
+                                id="contact-name"
+                                name="name"
+                                placeholder="Enter your name"
+                                required
+                            >
+                        </div>
+
+                        <div class="contact-field">
+                            <label for="contact-email">Email address</label>
+                            <input
+                                type="email"
+                                id="contact-email"
+                                name="email"
+                                placeholder="you@example.com"
+                                required
+                            >
+                        </div>
+                    </div>
+
+                    <div class="contact-field">
+                        <label for="contact-subject">What is this about?</label>
+                        <select id="contact-subject" name="subject" required>
+                            <option value="" disabled selected>Select a topic</option>
+                            <option value="Collaboration">Project collaboration</option>
+                            <option value="Internship">Internship opportunity</option>
+                            <option value="AI">AI and technology</option>
+                            <option value="Other">Something else</option>
+                        </select>
+                    </div>
+
+                    <div class="contact-field">
+                        <label for="contact-message">Your message</label>
+                        <textarea
+                            id="contact-message"
+                            name="message"
+                            rows="5"
+                            placeholder="Write your message here..."
+                            required
+                        ></textarea>
+                    </div>
+
+                    <button type="submit" class="contact-submit">
+                        <span>Prepare message</span>
+                        <span class="contact-submit-arrow">↗</span>
+                    </button>
+
+                    <p class="contact-form-note">
+                        This demo prepares an email in your email application.
+                        It does not store or send form data to a server.
+                    </p>
+
+                    <p class="contact-form-status" id="contact-form-status" role="status" aria-live="polite"></p>
+
+                </form>
+            </div>
+
+        </section>
+
+        <section class="contact-bottom">
+            <span>✧</span>
+            <p>GOOD THINGS GROW WHEN WE CONNECT</p>
+            <h2>Until then, keep <em>growing.</em></h2>
+        </section>
+
+    </main>
+
+    <footer class="contact-footer">
+        <a href="index.html" class="contact-logo">FN<span>.</span></a>
+        <p>Growing through curiosity, one day at a time.</p>
+        <p>© <span id="current-year"></span> Fasiha Nadeem</p>
+    </footer>
+
+</body>
+</html>
